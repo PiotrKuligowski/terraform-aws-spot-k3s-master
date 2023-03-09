@@ -127,6 +127,11 @@ variable "current_master_id_param_name" {
   type        = string
 }
 
+variable "current_nlb_id_param_name" {
+  description = "SSM parameter name containing nlb EC2 id"
+  type = string
+}
+
 variable "k3s_version" {
   description = "Version of cluster to deploy"
   type        = string
